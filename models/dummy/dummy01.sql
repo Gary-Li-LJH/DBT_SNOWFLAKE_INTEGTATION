@@ -1,6 +1,6 @@
 --select * from alpha_project_edw.raw.aisles
 {{ config(
-    materialized='view'
+    materialized='table'
     ) }}
 
 with raw_aisles as (
