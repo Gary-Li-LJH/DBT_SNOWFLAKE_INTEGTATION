@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: src_aisles
-    description: Source table which contains aisle informtion.
+    description: Source table which contains aisle informtion/Dim.
     columns:
 
       - name: aisle_id
@@ -12,7 +12,7 @@ models:
           - not_null
 
   - name: src_departments
-    description: Source table which contains department infomation.
+    description: Source table which contains department infomation/Dim.
     columns:
 
       - name: department_id
